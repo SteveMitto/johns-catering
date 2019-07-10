@@ -1,0 +1,131 @@
+.top{
+  height: 500px;
+  background-image: url("cater.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.top h1{
+  position: relative;
+  top: 170px;
+  padding-left: 40px;
+  color: white;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 5em;
+}
+.top p{
+  position: relative;
+  top:170px;
+  letter-spacing: 3px;
+  margin-left: 70px;
+  color: white;
+}
+.topnav ul{
+  text-align: center;
+}
+.top2{
+  background-image:url("cater2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: red;
+  height:500px;
+  }
+  .bg{
+    height:500px;
+    background-color: rgba(2, 0, 0, 0.5);
+    width:100%;
+  }
+.top2 h3{
+  position: relative;
+  left: 33%;
+  top:230px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+  padding: 10px;
+  max-width: 400px;
+  background-color: white;
+}
+.col-md-4 .card:hover{
+  padding: 10px;
+  transition: .5s;
+  transition-timing-function: ease;
+}
+.hello{
+  text-align: center;
+  margin-bottom: 40px;
+  font-style: italic;
+  font-family: 'Courgette', cursive;
+  position: relative;
+  display:block;
+
+}
+.hello::before{
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: 50px;
+  width:400px;
+  height: 2px;
+  background-color: red;
+}
+.hello::after{
+  content: '';
+  position: absolute;
+  top: 16px;
+  right:50px;
+  width:400px;
+  height: 2px;
+  background-color: red;
+}
+.top3{
+  background-image:url("tent-bg.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  background-color: red;
+  height:700px;
+  }
+.bg2{
+  height:700px;
+  background-color: rgba(2, 0, 0, 0.5);
+  width:100%;
+}
+.tent-txt{
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  position: relative;
+  color: white;
+  padding: 10px 0;
+  background-color: green;
+}
+/* .tent-txt::before{
+  content: '';
+  position: absolute;
+  top: 16px;
+  left:80px;
+  height: 3px;
+  width: 490px;
+  background-color: green;
+}
+.tent-txt::after{
+  content: '';
+  position: absolute;
+  top: 16px;
+  right:80px;
+  height: 3px;
+  width: 490px;
+  background-color: green;
+} */
+.tent-2{
+  height: 260px;
+}
+.tent-3{
+  height: 260px;
+}
+@media only screen and(max-width:600px) {
+  .card-body{
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,10 @@
+
+.top h2{
+  position: absolute;
+  top: 0;
+  right: 37%;
+  padding: 10px 70px;
+}
+.text{
+  text-align: center;
+}
